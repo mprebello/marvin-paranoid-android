@@ -57,7 +57,9 @@ class MarvinDrawn(object):
         marvin+='...=#++++++++++*@WWWWWW@+++++++++++#=.. \n'
         print(marvin)
 
-    def blink(self):
-        self.talk()
-        time.sleep(0.2)
-        self.silence()
+    def blink(self, number_of_time):
+        for i in range(number_of_time):
+            self.talk()
+            time.sleep(0.2)
+            self.silence()
+            time.sleep(0.2)

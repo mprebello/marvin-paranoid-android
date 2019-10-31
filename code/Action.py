@@ -3,13 +3,21 @@
 # Author: Marcel Rebello
 # mail: mprebello@gmail.com
 # ====================================================================
-import speech_recognition as sr
-from gtts import gTTS
-from playsound import playsound
-import marvin_quotes
+import subprocess
+import os
 
 class OpenSoftware(object):
-    def __init__(self, software):
-        self.__software = software
-        print('Not development yet')
+    def __init__(self):
+        self.__list_of_software = []
 
+    def open(self, answer):
+        pass
+
+    def test(self):
+        ping
+
+    def exploit(self):
+        pass
+
+    def run_cluster(self):
+        pass
